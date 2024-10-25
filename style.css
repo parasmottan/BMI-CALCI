@@ -1,0 +1,219 @@
+@font-face {
+  font-family: sf;
+  src: url(NeueMontreal-Regular.ttf);
+}
+
+body{
+  overflow: hidden;
+  background-color: #2F2F2F;
+  font-family: sf;
+}
+
+p label{
+color: #FF5F5F;
+font-family: sf;
+font-weight: 100;
+}
+
+input{
+  margin-left: 4vw;
+  padding: 1vw 1vw;
+height: 1.4vw;
+width: 5vw;
+border: none;
+border-radius: 50px;
+background-color: #2C2C2C;
+outline: none;
+color: #FF5F5F;
+font-size: 1.5vw;
+font-weight: 100;
+}
+
+
+h1{
+
+  color: #FF5F5F;
+  font-size: 2vw;
+}
+
+.h1ndimg{
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.main{
+ 
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.upper-part{
+width:100%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+button{
+border: none;
+padding: 1vw 2vw;
+border-radius: 50px;
+background-color: #FF5F5F;
+color: #2C2C2C;
+font-family: sf;
+text-transform: uppercase;
+font-size: 0.9vw;
+margin-left: 4.5vw;
+margin-top: 2vw;
+}
+
+
+#weight-guide{
+
+  margin-top: 2vw;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+width: 110%;
+height: 55%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 20px;
+}
+
+
+#results{
+font-size: 3vw;
+margin-top: 1vw;
+color: #fff;
+
+}
+
+.bmi{
+font-size: 1.5vw;
+color: #fff;
+}
+.rank{
+  margin-top: -0.3vw;
+  font-size: 1.1vw;
+  color: green;
+}
+
+.add{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.resultandrank{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+margin-bottom: 1vw;
+}
+
+.loweritems{
+
+  margin-left: -4vw;
+margin-top: 2vw;
+line-height: 0.6vw;
+}
+
+.loweritems h3{
+  color: #fff;
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+
+.under span{
+  color: rgb(54, 54, 175);
+}
+
+
+p{
+  color: #fff;
+}
+
+#under span{
+  color: rgb(55, 55, 155);
+}
+
+#normal span{
+  color: green;
+}
+
+#over span{
+  color: red;
+}
+
+#obes span{
+  color: red;
+}
+
+
+.size{
+  font-size: 1vw;
+
+}
+
+.errormsg {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+video{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -4%);
+height: 18vw;
+width: 18vw;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+}
+
+
+.phline{
+
+width: 14vw;
+margin-top: 1vw;
+
+}
+
+
+.imageandicon{
+overflow: hidden;
+display: flex;
+flex-direction: column;
+
+}
+
+
+i{
+  transition: transform 1s ease;
+
+  font-size: 1.6vw;
+  color: #fff;
+  margin-bottom: -2.6vw;
+}
+
